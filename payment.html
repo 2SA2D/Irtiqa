@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Checkout</title>
+    <meta title="Irtiqa Tech Guide and Online Assistance">
+    <link rel="stylesheet" href="service2Style.css">
+    <link  rel="shortcut icon" href="IRTIQA2.png">
+    <script type="text/javascript">
+        function calculateBasic(value) {
+            if(value=='oneTime'){
+                document.getElementById("total").innerHTML= "2.625" +" "+ "OMR";
+                document.getElementById("totalS").innerHTML= "2.5" +" "+ "OMR";
+                document.getElementById("tax").innerHTML= "5%";}
+
+            if(value=='oneMonth'){
+            document.getElementById("total").innerHTML= "12.6" +" "+ "OMR";
+            document.getElementById("totalS").innerHTML= "12" +" "+ "OMR";
+            document.getElementById("tax").innerHTML= "5%"};
+}
+function calculate(value) {
+            if(value=='univrsity' ){
+                document.getElementById('b').style.display="none";
+                document.getElementById("total").innerHTML= "2.5" +" "+ "OMR";
+                document.getElementById("totalS").innerHTML= "2.5" +" "+ "OMR"+" "+"(Offer : Premium Service)";
+                document.getElementById("tax").innerHTML= "0%"};
+                if(value=='school' ){
+                document.getElementById('b').style.display="none";
+                document.getElementById("total").innerHTML= "2.5" +" "+ "OMR";
+                document.getElementById("totalS").innerHTML= "2.5" +" "+ "OMR"+" "+"(Offer : Premium Service)";
+                document.getElementById("tax").innerHTML= "0%"};
+                if(value=='Unemployed' ){
+                document.getElementById('b').style.display="none";
+                document.getElementById("total").innerHTML= "2.5" +" "+ "OMR";
+                document.getElementById("totalS").innerHTML= "2.5" +" "+ "OMR"+" "+"(Offer : Premium Service)";
+                document.getElementById("tax").innerHTML= "0%"};
+                if(value=='employed'){
+                document.getElementById('b').style.display="block";
+                document.getElementById("total").innerHTML= "";
+                document.getElementById("totalS").innerHTML= "";
+                document.getElementById("tax").innerHTML= "";}
+            
+            
+}
+    
+    </script>
+    
+    <style>
+        h1{font-size: 50pt;}
+        
+        h2{ text-indent: 1em;}
+
+        strong{ text-align: center;}
+
+        .button-shape{ 
+            font-size: 20pt;
+            color: aliceblue;
+            background-color:cadetblue;
+        }
+        .form-style{
+            text-align: left;
+            text-indent: 20%;
+        }
+        input{
+            font-size: 16pt;
+            margin-left: 3em ;
+        }
+    </style> 
+  
+</head>
+
+<body>
+    <div id="size">
+            <h1>Processing payment</h1>
+
+            <h2>Time: <span id="time"></span></h2>
+            <script>
+            var t = new Date();
+            document.getElementById("time").innerHTML = t.toLocaleTimeString();
+            </script>
+
+            <div class="grid-block" style="grid-template-columns: 1fr">
+                <div class="grid-list" style="font-size: 20"> 
+                    
+                    <form action="index.html" class="form-style">
+                        <strong style="margin-left: -180pt;">Account Details</strong>
+                        <br />
+                        <br />
+                        Name:    <input type= "text" name="theName" size="20" />
+                        <br />
+                        <br />
+                        Phone Number: <input type= "tel" name="phoneNumber" size="15" />
+                        <br />
+                        <br />  
+                        Home Adress: <input type= "text" name="address" size="30" />
+                        <br />
+                        <br />  
+                        Email Adress: <input type= "email" name="email" size="20" />
+                        <br />
+                        <br />
+                        Employment statues: 
+                        <label><input type="radio" name="Employment statues" value="school" onchange="calculate(this.value)">School</label>
+                        <label><input id="student" type="radio" name="Employment statues" value="univrsity"  onchange="calculate(this.value)">University</label>
+                        <label><input type="radio" name="Employment statues" value="employed" onchange="calculate(this.value)">Employed</label>
+                        <label><input type="radio" name="Employment statues" value="Unemployed" onchange="calculate(this.value)">Unemployed</label>
+                        <br /> 
+                        <br />  
+                        <strong>Card Details</strong>
+                        <br />
+                        <br />
+                        Postal code: <input type= "text" name="postalCode" size="5" />
+                        <br />
+                        <br /> 
+                        P.O. box: <input type= "tet" name="P.O. box" size="5" />
+                        <br />
+                        <br /> 
+                        Debit Card Number: <input type= "text" name="debitCardNumber" size="16" />
+                        <br />
+                        <br /> 
+                        Expiration Date: <input type= "date" name="Expiray" />
+                        <br />
+                        <br />
+                        CVC: <input type= "text" name="cvc" size="1"/>
+                        <br />
+                        <br />                                                                  
+                    </form>
+                </div>
+
+                <div class="grid-list" style="font-size: 20"> 
+                    <strong>Payment Details</strong>
+                    <br />
+                    <br />
+                    Select Plan: 
+                    <span id="b" style="display: block;">
+                    <label><input id="basic" type="radio" name="Employment statues" value="oneTime" onchange="calculateBasic(this.value)">Basic</label>
+                    <label><input id="Prem" type="radio" name="Employment statues" value="oneMonth" onchange="calculateBasic(this.value)">Premium</label>            
+                    </span>
+                    <br />
+                    <br />
+                    Service: <span id="totalS"></span>
+                    <br />
+                    <br />
+                    Tax: <span id="tax"></span>
+                    <hr style="margin-right: 258pt;" />
+                    Total: <span id="total"></span> 
+                </div>
+                
+                <form action="done.html">
+                    <input style="margin-left: 420pt;" type="submit" value="Proceed" class="button-shape"/>
+                </form>
+
+            </div>
+            <div class="footer">
+                <div class="n1" style="margin-top: 15pt;margin-right: 50pt;"> 
+                <a><img style="block-size: 30pt;display:inline-flexbox;" src="IRTIQA.png"></a>
+                    <a href="index.html" id="c1">Home</a>
+                    <a href="services.html" id="page-head">Services</a>
+                    <a href="track.html" id="c1">Track page</a>
+                    <a href="game.html" id="c1">Fun page</a>
+                    <a href="about.html" id="c1">About us</a>
+                    <a href="contact.html" id="c1">Contact us</a></div>
+                </br>
+                <pre style="text-align: center; font-size: 20pt;color: aliceblue;margin-top: 80pt;">   <a href="http://facebook.com"><img style="block-size:50pt;" src="FB.jpg"/></a> <a href="http://twitter.com"><img style="block-size:50pt;" src="t.jpg"/></a> <a href="http://Whatsapp.com"><img style="block-size:50pt;" src="W.jpg"/></a>
+                </pre>
+                <p style="display: inline-block;"><img style="block-size: 30pt;" src="IRTIQA.png"/></p>
+                <p style="display: inline-block;">Irtiqa Tech Guide and Online Assistance ©2020</p>
+            </div>
+        </div>
+</body>
+</html>

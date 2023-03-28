@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Insert</title>
+    <meta title="Irtiqa Tech Guide and Online Assistance">
+    <link rel="stylesheet" href="insertStyle.css">
+    <link  rel="shortcut icon" href="IRTIQA2.png">
+
+    <style>
+        
+        p{
+            font-size: 16pt;
+            margin-left: 5%;
+        }
+        input{
+            font-size: 16pt;
+            margin-left: 3em ;
+        }
+        textarea{
+            font-size: 14pt;
+        }
+        .form-style{
+            text-align: left;
+            text-indent: 20%;
+        }
+        .navigation{ 
+            float: right;
+            display: inline-flexbox;
+        }
+
+        .navigation a{
+            color: aliceblue;
+            font-weight: 300;
+            font-size: 20pt;
+            text-decoration: none;
+            
+            padding: 9px 12px;
+            border-left: 3px solid white;
+            /*border-top: 3px solid white;
+            border-bottom: 3px solid white;*/
+        }
+    </style>
+</head>
+<body style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+    <a href="feedback.html"><button class="fab">FeedBack</button></a>
+    <div id="size">
+            <div class="navigation">
+                <a><img style="block-size: 30pt;display:inline-flexbox;" src="IRTIQA.png"></a>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="search.html">Search</a>
+                <a href="track.html">Track page</a>
+                <a href="game.html">Fun page</a>
+                <a href="about.html">About us</a>
+                <a href="contact.html">Contact us</a>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="search.html">Search</a>
+                <a href="insert.html">Insert</a>
+                <a href="update.html">Update</a>
+                <a href="delete.html">Delete</a>
+                </br>  
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br> 
+                </br>  
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br> 
+                <a><img style="block-size: 30pt;display:inline-flexbox;" src="IRTIQA.png"></a>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+                <script>
+                function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                }
+                </script>
+            <div class="content">
+                <img src="IRTIQA.png" style="margin-top: 40pt;"/>
+                <p style="font-size: 2em; color: aliceblue;display: inline-block; margin-top: 10pt;margin-left: -110pt;">Irtiqa Tech Guide and Online Assistance</p>
+            </br>
+            </div>
+            <div class="s1">
+                <pre style="border-style: double;margin-left: 40pt;margin-top: 160pt;background-color: #1E211B;"><h1 style="font-size: 100pt;color: rgb(0, 235, 223); margin-right: 190pt;border-style: double ; margin-left: 150pt; margin-right: 170pt; margin-bottom: 10pt;"> Insert</h1>
+                    <h3 style="text-align: center;color: aliceblue;">We aim to improve our services and meet customer sutisfaction.</h3>
+                </pre>
+            
+            </div>
+                <div class="n3">
+                    <img src="IRTIQA.png" style="margin-top: 30pt;"/>
+                    <h1 style="margin-top: 30pt;margin-bottom: 20pt; color: aliceblue;">Write your Software name that you want us to add it.</h1>
+                    <section class="search">
+                        <form action="http://localhost/Ertiqa/insert.php" method="POST">
+                            <table border="border" style=" margin-left: 10.5em;text-align: center;font-size: 0.9em; border-width: 1em; column-span: all;color:aliceblue">
+
+                                <tr>
+                                    <th>
+                                        Name
+                                    </th>
+                                    <th>
+                                        Email
+                                    </th>
+                                    <th>
+                                        Name of Software or Operator System
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input style="margin-left: -2pt;" type="text" name="name">
+                                    </td>
+                                    <td>
+                                        <input style="margin-left: -2pt;" type="text" name="email">
+                                    </td>
+                                    <td>
+                                        <input style="margin-left: -2pt;" type="text" name="softwareName">
+                                    </td>
+                                    <td>
+                                        <select name="rType">
+                                            <option value="Software">Software</option>
+                                            <option value="System">Operator System</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                            <input type="submit" value="Insert" style="margin-left: 10pt;margin-top: 20pt; font-size: 20pt;color: aliceblue;background-color:cadetblue; outline-style: groove;"/>
+                        </form>
+                    </div>
+            </div>
+            
+
+            <div class="footer">
+                <div class="n1" style="margin-top: 15pt;margin-right: 30pt;"> 
+                    <a><img style="block-size: 30pt;display:inline-flexbox;" src="IRTIQA.png"></a>
+                    <a href="index.html" id="c1">Home</a>
+                    <a href="services.html" id="c1">Services</a>
+                    <a href="search.html" id="c1">Search</a>
+                    <a href="track.html" id="c1">Track page</a>
+                    <a href="game.html" id="c1">Fun page</a>
+                    <a href="about.html" id="c1">About us</a>
+                    <a href="contact.html" id="c1">Contact us</a></div>
+                </br>
+                <pre style="text-align: center; font-size: 20pt;color: aliceblue;margin-top: 80pt;">    <a href="http://facebook.com"><img style="block-size:50pt;" src="FB.jpg"/></a> <a href="http://twitter.com"><img style="block-size:50pt;" src="t.jpg"/></a> <a href="http://Whatsapp.com"><img style="block-size:50pt;" src="W.jpg"/></a>
+                </pre>
+                <p style="display: inline-block;"><img style="block-size: 30pt;" src="IRTIQA.png"/></p>
+                <p style="display: inline-block; font-size: 20pt;">Irtiqa Tech Guide and Online Assistance ©2020</p>
+        </div>
+    </div>
+</body>
+</html>

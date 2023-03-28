@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Services</title>
+    <meta title="Irtiqa Tech Guide and Online Assistance">
+    <link rel="stylesheet" href="service2Style.css">
+    <link  rel="shortcut icon" href="IRTIQA2.png">
+    <style>
+        a{
+          color: inherit;
+          text-decoration: none;
+        }
+        h1{
+          font-size: 50pt;
+          color:rgb(0, 235, 223);
+        }
+        .grid-lists:hover{
+            background-color: #66CCCC;
+        }
+    </style>
+    <script type="text/javascript" src="service.js"></script>
+    <script type="text/javascript">
+        function CheckSoft(val){
+         var elementOne=document.getElementById('softOne');
+         var elementOTwo=document.getElementById('softTwo');
+         var elementThree=document.getElementById('softThree');
+         var elementFour=document.getElementById('softFour');
+         if(val=='MO')
+           elementOne.style.display='block';
+         if(val=='GC')
+           elementOTwo.style.display='block';
+         if(val=='N')
+           elementThree.style.display='block';
+         if(val=='A')
+           elementFour.style.display='block';
+         if(val=='W')
+           elementFive.style.display='block';
+        }
+        function Choice(val){
+         var elementOneT=document.getElementById('softOneT');
+         var elementOTwoT=document.getElementById('softTwoT');
+         var elementThreeT=document.getElementById('softThreeT');
+         var elementFourT=document.getElementById('softFourT');
+         var elementFiveT=document.getElementById('softFiveT');
+         if(val=='tMO')
+           elementOneT.style.display='block';
+         if(val=='tGC')
+           elementOTwoT.style.display='block';
+         if(val=='tN')
+           elementThreeT.style.display='block';
+         if(val=='tA')
+           elementFourT.style.display='block';
+         if(val=='tW')
+           elementFiveT.style.display='block';
+        }
+        
+        </script> 
+</head>
+<body>
+  <a href="feedback.html"><button class="fab">FeedBack</button></a>
+    <div id="size">
+            <div class="n1">
+              <a><img style="block-size: 30pt;display:inline-flexbox;" src="IRTIQA.png"></a>
+                <a href="index.html" id="c1">Home</a>
+                <a href="services.html" id="page-head">Services</a>
+                <a href="search.html" id="c1">Search</a>
+                <a href="track.html" id="c1">Track page</a>
+                <a href="game.html" id="c1">Fun page</a>
+                <a href="about.html" id="c1">About us</a>
+                <a href="contact.html" id="c1">Contact us</a>
+            </div>
+            <div class="content">
+                <img src="IRTIQA.png" style="margin-top: 50pt;"/>
+                <p style="font-size: 2em; color: black;display: inline-block; margin-top: 0.5em;margin-left: -110pt;">Irtiqa Tech Guide and Online Assistance</p>
+            </br>
+            <div class="s1">
+                <pre style="border-style: double;margin-left: 40pt;margin-top: 160pt; color: aliceblue;"><h1 style="font-size: 100pt;color:aliceblue; border-style: double; margin-right: 168pt; margin-left: 160pt; margin-bottom: 10pt;">Services</h1>
+                <h3 style="text-align: center;">Operator System,Software,Network and everything in between.</h3>
+                </pre>
+            </div>
+            </div>
+                
+            
+            <div class="n3">
+                <h1>Downloads</h1> 
+                <h3 id ="c2">We find here some softwares that you can download it.</h3>                           
+                <label style="font-size: 15pt;">
+                    Softwares:<select style="font-size: 15pt;" name="sName" onchange='CheckSoft(this.value);'>
+                        <option value="">--Please choose an option--</option>
+                        <option value="MO"> Microsoft Office</option>
+                        <option value="GC"> Visual Studio</option>
+                        <option value="N"> Netbeans</option>
+                        <option value="A"> Anaconda</option>
+                        <option value="W"> Windows 10</option>
+                        </select>
+                </label>
+                <a href="https://54-36-174-43.xyz/Getintopc.com/Microsoft_Office_2016_Pro_Plus_16.0.5071.1000_VL_Oct_2020.rar?md5=d-8i231JHG8wX5rUKHXp5g&expires=1606562193"><input class="i" type="text" value="Download Microsoft Office" name="sMO" id="softOne" style='display:none;' readonly/></a>
+                <a href="https://54-37-194-4.xyz/Getintopc.com/VS2019_0.rar?md5=b_OFhSA4zkZeyg5RaPcLcA&expires=1606562683";><input class="i" type="text" value="Download Visual Studio" name="sGC" id="softTwo" style='display:none;' readonly/></a>
+                <a href="https://54-38-132-168.xyz/Getintopc.com/netbeans-8.1-windows.rar?md5=ut9X-suIw0TixgOW1JbwYg&expires=1606590600"><input class="i" type="text" value = "Download Netbeans" name="sN" id="softThree" style='display:none;' readonly/></a>
+                <a href="https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe"><input class="i" type="text" value = "Download Anaconda" name="sA" id="softFour" style='display:none;' readonly/></a>
+                <a href="https://54-36-174-43.xyz/Getintopc.com/W10X64.OFF19.ENU.AUG_2020.iso?md5=_zbZZcJyp-chIXnxEiVOHA&expires=1606591832"><input class="i" type="text" value = "Download Windows 10" name="sW" id="softFive" style='display:none;' readonly/></a>
+                
+                </br>
+                </br>
+                <h1>Toturials</h1>
+                <h3 id ="c2">We find high-quality video that learn you how to install some softwares.</h3>
+                <label style="font-size: 15pt;">
+                  Toturials:<select style="font-size: 15pt;" name="tName" onchange='Choice(this.value);'>
+                      <option value="">--Please choose an option--</option>
+                      <option value="tMO"> Microsoft Office</option>
+                      <option value="tGC"> Visual Studio</option>
+                      <option value="tN"> Netbeans</option>
+                      <option value="tA"> Anaconda</option>
+                      <option value="tW"> Windows 10</option>
+                      </select>
+                </label>   
+                <a href="https://www.youtube.com/watch?v=ahlIG2PugWo"><input class="i" type="text" value="How to install Microsoft Office" name="tMO" id="softOneT" style='display:none;' readonly/></a>
+                <a href="https://www.youtube.com/watch?v=IjDPFy4NPYE"><input class="i" type="text" value="How to install Visual Studio" name="tGC" id="softTwoT" style='display:none;' readonly/></a>
+                <a href="https://www.youtube.com/watch?v=EkjEkFq9ojI"><input class="i" type="text" value = "How to install Netbeans" name="tN" id="softThreeT" style='display:none;' readonly/></a>
+                <a href="https://www.youtube.com/watch?v=5mDYijMfSzs"><input class="i" type="text" value = "How to install Anaconda" name="tA" id="softFourT" style='display:none;' readonly/></a>
+                <a href="https://www.youtube.com/watch?v=RxecJmjj0Sw"><input class="i" type="text" value = "How to install Windows" name="tW" id="softFiveT" style='display:none;' readonly/></a>
+
+                <br />
+                <h1>Online Support</h1>
+                <div class="grid-block">
+
+                  <a href="payment.html"><div class="grid-lists"> One Time (Basic)
+                      <p>Receive a live one-to-one video call from our team to diagnose and solve any problem for one issue
+                        <br /><br /><hr /><strong>2.5 omr</strong></p>
+                  </div></a>
+
+                  <a href="payment.html"><div class="grid-lists"> One Month (Preimuim)
+                      <p>Receive a live one-to-one video call from our team to diagnose and solve any problem for one month.
+                        <br />(Great for bussineses) <hr /><strong>12 omr</strong></p>
+                  </div></a>
+
+                </div> 
+
+                <h1>Do you need help? send a message to us!</h1> 
+                <form action="http://localhost/Ertiqa/thank.php" method="POST" style="font-size: 20pt; margin-top: 100pt;">
+                    <label> Name: <input type="text" name ="theName" size="50" style="font-size: 20pt;"/> </label>
+                    </br>
+                    </br>
+                    <label> Subject: <input type="text" name ="theSubject" size="50" style="font-size: 20pt;"/> </label>
+                    </br>
+                    </br>
+                    <label> Email: <input type="text" name ="theEmail" size="50"style="font-size: 20pt;"/> </label>
+                    </br>
+                    </br>
+                    <textarea name ="yourmsg" rows ="8" cols="60" style="font-size: 20pt;">Enter your message</textarea>
+                    </br>
+                    </br>
+                    <input type="submit" value="SEND" style="margin-left: 200Spt; font-size: 20pt;color: aliceblue;background-color:cadetblue; outline-style: dotted;"/>
+                    <input type="reset" value="Clear" style="margin-left: 300pt; font-size: 20pt;color: aliceblue;background-color:cadetblue; outline-style: dotted;"/>
+                </form>
+            </div>
+            <div class="footer">
+                    <div class="n1" style="margin-top: 15pt;margin-right: 50pt;"> 
+                      <a><img style="block-size: 15pt;display:inline-flexbox;" src="IRTIQA.png"></a>
+                        <a href="index.html" id="c1">Home</a>
+                        <a href="services.html" id="page-head">Services</a>
+                        <a href="search.html" id="c1">Search</a>
+                        <a href="track.html" id="c1">Track page</a>
+                        <a href="game.html" id="c1">Fun page</a>
+                        <a href="about.html" id="c1">About us</a>
+                        <a href="contact.html" id="c1">Contact us</a></div>
+                    </br>
+                    <pre style="text-align: center; font-size: 20pt;color: aliceblue;margin-top: 80pt;">   <a href="http://facebook.com"><img style="block-size:50pt;" src="FB.jpg"/></a> <a href="http://twitter.com"><img style="block-size:50pt;" src="t.jpg"/></a> <a href="http://Whatsapp.com"><img style="block-size:50pt;" src="W.jpg"/></a>
+                    </pre>
+                    <p style="display: inline-block;"><img style="block-size: 30pt;" src="IRTIQA.png"/></p>
+                    <p style="display: inline-block;">Irtiqa Tech Guide and Online Assistance ©2020</p>
+            </div>
+    </div>
+</body>
+</html>

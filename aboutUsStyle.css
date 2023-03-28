@@ -1,0 +1,106 @@
+.b1{
+    background-image: url(our2.png); background-repeat: no-repeat; background-size: 60em;background-position-x: 100%;background-position-y:100% ;
+    background-color: #63E1D5;
+    padding: 5em;
+    margin-top: -12pt;
+    margin-left: -70pt;
+    margin-right: -18pt;
+}
+.n1{
+    float: right;
+    display: inline-flexbox;
+    margin-top: 40pt;
+    font-size: 5pt;
+}
+.n1 a{
+    font-weight: 300;
+    font-size: 24pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    
+    padding: 14px 16px;
+    border-left: 3px solid white;
+}
+#logo {
+    font-size: 32pt;
+    color:rgb(0, 235, 223);
+    
+    padding: 12px 15px;
+    background-color: white;
+}
+#c2{
+    color:white;
+}
+
+.footer{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+#c1{
+    color: aliceblue;
+}
+.s1{
+    background-image: url(background.jpg); background-repeat: no-repeat; background-size: 90em;
+    margin-left: -70pt;
+    margin-right: -18pt;
+    margin-top: -10pt;
+    padding-top: 300pt;    
+}
+.n3{
+    text-align: center;
+    background-image: url(back3.png); background-repeat: no-repeat; background-size: 60em;background-position-x: 100%;background-position-y:90% ;
+    background-color:#1E211B;
+    margin-top: -34pt;
+    margin-left: -45pt;
+    margin-right: -18pt;
+}
+.content{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    text-align: center;
+    border: aqua;
+    margin-top: 250pt;
+    margin-right: 650pt;    
+}
+
+li.twitter{
+    list-style-image: url(t2.jpg);}
+li.ins{
+    list-style-image: url(ins2.jpg);
+}
+li.whatsapp{
+    list-style-image: url(w2.jpg);  
+}
+li.gmail{
+    list-style-image: url(gmail2.jpg);
+}
+#page-head{
+    color:rgb(0, 235, 223);
+    background-color: aliceblue;
+}
+#size{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fab {
+    position: fixed;
+    direction: ltr;
+    right: 5px;
+    bottom: 24px;
+    z-index: 2500;
+    width: 85px;
+    height: 35px;
+    font-size: 12pt;
+    background-color:aliceblue;
+    color:rgb(4, 197, 187);
+    border: aliceblue;
+}
+.fab:hover{
+    background-color: rgb(190, 255, 255);
+    border: rgb(190, 255, 255);
+    color: black;
+}

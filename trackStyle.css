@@ -1,0 +1,81 @@
+.n1{
+    float: right;
+    display: inline-flexbox;
+    margin-top: 35.4em;
+    font-size: 0.05em;
+}
+
+.n3{
+    text-align: center;
+    background-image: url(back4.png); background-repeat: no-repeat; background-size: 60em;background-position-x: 100%;background-position-y:90% ;
+    background-color:#16897C;
+    padding: 0.3em;
+    margin-left: -45pt;
+    margin-right: -44pt;
+}
+.n1 a{
+    font-weight: 3em;
+    font-size: 40em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    
+    padding: 0.14em 0.16em;
+    border-left: 3px solid white;
+}
+#logo {
+    font-size: 50em;
+    color:rgb(0, 235, 223);
+    
+    padding: 0.12em 0.15em;
+    background-color: white;
+}
+#c2{
+    color:black;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+    padding-bottom: -4em;
+}
+#c1{
+    color: aliceblue;
+}
+.s1{
+    background-image: url(track.jpg); background-repeat: no-repeat; background-size: 120em;
+    margin-left: -45pt;
+    margin-right: -44pt;
+    margin-top: -21.5em;
+    padding: 1em;
+    
+}
+#page-head{
+    color:rgb(0, 235, 223);
+    background-color: aliceblue;
+}
+#size{
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fab {
+    position: fixed;
+    direction: ltr;
+    right: 5px;
+    bottom: 24px;
+    z-index: 2500;
+    width: 85px;
+    height: 35px;
+    font-size: 12pt;
+    background-color:aliceblue;
+    color:rgb(4, 197, 187);
+    border: aliceblue;
+}
+.fab:hover{
+    background-color: rgb(190, 255, 255);
+    border: rgb(190, 255, 255);
+    color: black;
+}
+

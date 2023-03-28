@@ -1,0 +1,189 @@
+body{
+    background-color: #001124;
+}
+.n1{
+    float: right;
+    display: inline-flexbox;
+    margin-top: 35.4em;
+    font-size: 0.5pt;
+}
+
+.n3{
+    text-align: center;
+    background-image: url(back10.png); background-repeat: no-repeat; background-size: 60em;background-position-x: 100%;background-position-y:90% ;
+    background-color:#001124;
+    padding: 0.3em;
+    margin-left: -45pt;
+    margin-right: -44pt;
+}
+.n1 a{
+    font-weight: 3em;
+    font-size: 50em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    
+    padding: 0.14em 0.16em;
+    border-left: 3px solid white;
+}
+#logo {
+    font-size: 50em;
+    color:rgb(0, 235, 223);
+    
+    padding: 0.12em 0.15em;
+    background-color: white;
+}
+#c2{
+    color:black;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+    padding-bottom: -4em;
+}
+#c1{
+    color: aliceblue;
+}
+.s1{
+    background-image: url(gameBackground.jfif); background-repeat: no-repeat; background-size: 120em;
+    margin-left: -45pt;
+    margin-right: -44pt;
+    margin-top: -22.5em;
+    padding: 1em;
+    
+}
+#page-head{
+    color:rgb(0, 235, 223);
+    background-color: aliceblue;
+}
+#size{
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+body.correct {
+
+  background-color: green;
+
+}
+
+body.wrong {
+
+    background-color: red;
+
+}
+
+.btn-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, auto);
+
+  gap: 10px;
+
+  margin: 20px 0;
+  margin-left: 100pt;
+  margin-right: 50pt;
+
+
+}
+#question{
+    border: 10px solid #66CCCC;
+
+    background-color: aliceblue;
+  
+    border-radius: 5px;
+  
+    padding: 5px 10px;
+  
+    color:rgb(0, 235, 223);
+  
+    outline: none;
+    margin-left: 100pt;
+    margin-right: 50pt;
+
+}
+
+.btn {
+
+  border: 10px solid #66CCCC;
+
+  background-color: aliceblue;
+
+  border-radius: 5px;
+
+  padding: 5px 10px;
+
+  color:rgb(0, 235, 223);
+
+  outline: none;
+
+}
+
+.btn:hover {
+
+  border-color: yellow;
+
+}
+
+.btn.correct {
+
+  color: white;
+  background-color: green;
+
+}
+
+.btn.wrong {
+
+  color: white;
+  background-color: red;
+
+}
+
+.start-btn, .next-btn {
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  padding: 10px 20px;
+
+}
+
+.controls {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  margin-left: 50pt;
+
+}
+#questionContainer{
+  color:rgb(0, 235, 223);
+  font-size: 1.9em;
+}
+.fab {
+    position: fixed;
+    direction: ltr;
+    right: 5px;
+    bottom: 24px;
+    z-index: 2500;
+    width: 85px;
+    height: 35px;
+    font-size: 12pt;
+    background-color:aliceblue;
+    color:rgb(4, 197, 187);
+    border: aliceblue;
+}
+.fab:hover{
+    background-color: rgb(190, 255, 255);
+    border: rgb(190, 255, 255);
+    color: black;
+}
